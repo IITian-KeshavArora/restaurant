@@ -1,0 +1,149 @@
+.header
+{
+    text-align: center;
+    font-family:"Ubuntu Mono",monospace;
+}
+#title
+{
+    color:red;
+    font-size: 46px;
+    margin:0;
+}
+#food
+{
+    font-size: 21px;
+    margin: 0;
+}
+
+#navbar
+{
+    background-color: #c4112f;
+}
+
+#logo
+{
+    height: 10vh;
+    position:absolute;
+    margin-left: 47%;
+    background-color: red;
+}
+#menu
+{
+    display: flex;
+    justify-content: center;
+    transition: 1s ease 0.2s ;    
+}
+#menu>h3
+{
+    padding-left:5vh;
+}
+
+#menu>h3>a
+{
+    color:white;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+}
+
+#welcome
+{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 4px solid black;
+}
+#welcome>img
+{
+    height:10vh;
+}
+
+#menu>h3>a:hover
+{
+    font-size:20px;
+    text-shadow: black 2px 2px 4px;
+}
+
+.foodItems
+{
+    display:inline-block;
+    margin-left:15vh;
+    margin-top: 10vh;
+    box-shadow: 2px 2px 5px black;
+    transition:box-shadow 0.2s 0.1s;
+    border-radius: 5px;
+    cursor: pointer;/* Es se cursor change hokar Hand ban jayega, which gives feel of card/button.So use always.*/
+    line-height: 1vh;
+}
+
+
+#burger
+{
+    height: 38vh;
+    width: 47.12vh;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+
+}
+
+#item2
+{
+    height: 38vh;
+    width: 47.12vh;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+}
+
+.foodItems:hover
+{
+    box-shadow: 7px 7px 15px black;
+    border:2px solid black;
+}
+
+.description
+{
+    padding-left:10px;
+}
+.iteminfo
+{
+    color:#494949;
+    font-size: 14px;
+}
+.itemname
+{
+    color:#202124;
+}
+.itemdesc
+{
+    line-height: 3vh;
+    color:#494949;
+}
+
+.buy
+{
+    width: 100%;
+    background-color: #e4002b;
+    margin-left: 0;
+    border:1px solid #E4002B ;
+    border-radius: 10rem;
+    cursor: pointer;
+    font-size: .875rem;
+    transition: 0.1s ease border;
+}
+.buy:hover
+{
+    border:black 2px solid;
+}
+
+.para_buy
+{
+    margin-right: 1.7vh;
+}
+.price
+{
+    font-size: 2.5vh;
+    color: #202124;
+}
+footer
+{
+    font-size: 2vh;
+}
